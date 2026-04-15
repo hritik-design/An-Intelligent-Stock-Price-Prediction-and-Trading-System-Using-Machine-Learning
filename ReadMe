@@ -1,0 +1,44 @@
+🎯 Project Overview
+
+This project is a Stock Forecasting and Trading Simulation system built using TensorFlow.js.
+It allows users to:
+
+Train an LSTM model directly in the browser
+Predict stock prices
+Simulate buy/sell decisions
+🧰 Technologies Used
+ECharts & D3.js → Data visualization
+PapaParse → CSV file parsing
+TensorFlow.js → Machine learning (LSTM model)
+NumJS & Numeric.js → Numerical computations
+⚙️ How It Works
+Step 1: Run the Project
+Open index.html in a browser
+👉 No installation required
+Step 2: Configure Parameters
+Set hyperparameters like:
+Learning rate
+Epochs
+LSTM size
+Future prediction days
+Step 3: Upload Dataset
+Upload stock CSV (e.g., from Yahoo Finance)
+Step 4: Train Model
+Click Train
+Model learns patterns from historical data
+Step 5: Results
+
+After training, system shows:
+
+📈 Stock prediction graph
+📊 Loss graph
+📉 Distribution comparison
+💰 Buy/Sell simulation
+🚀 Key Features
+Runs fully in browser (no backend required)
+Real-time training and prediction
+Interactive charts and visualizations
+Trading strategy simulation
+⚠️ Important Note
+This is for educational purposes only
+Not suitable for real stock trading
